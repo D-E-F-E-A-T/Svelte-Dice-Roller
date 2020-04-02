@@ -47,7 +47,7 @@
 <style>
   main {
     background-color: #efefef;
-    width: 50%;
+    width: 90%;
     align-items: center;
     padding: 1em;
     max-width: 240px;
