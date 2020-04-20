@@ -1,5 +1,23 @@
-# Svelte-Dice-Roller
+# Svelte-Bootstrap-Template
+A Svelte template with Bootstrap classes available.
 
-To see it running on Netlify, [click here](https://svelte-dice-roller.netlify.com/).
+# Pre-requisites
+Have the Node run-time and Yarn package manager installed.
 
-To read the Svelte Quickstart Guide, [click here](https://svelte.dev/blog/the-easiest-way-to-get-started).
+# To install node modules
+```
+ $ yarn
+ ```
+
+# To run the development server
+```
+ $ yarn dev
+```
+
+# To build the final project
+```
+$ yarn build
+```
+
+# To deploy maunally on Netlify
+Drag-and-drop the build folder.
