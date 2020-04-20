@@ -1,5 +1,8 @@
-# Svelte-Bootstrap-Template
-A Svelte template with Bootstrap classes available.
+# Svelte-Dice-Roller
+A polyhedral dice roller.
+
+# Netlify Demo
+To see it running, [click here](https://polyhedral-dice.netlify.app/)
 
 # Pre-requisites
 Have the Node run-time and Yarn package manager installed.
@@ -20,4 +23,4 @@ $ yarn build
 ```
 
 # To deploy maunally on Netlify
-Drag-and-drop the build folder.
+Drag-and-drop the public folder.
