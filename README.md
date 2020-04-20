@@ -17,10 +17,7 @@ Have the Node run-time and Yarn package manager installed.
  $ yarn dev
 ```
 
-# To build the final project
+# To build the project
 ```
 $ yarn build
 ```
-
-# To deploy maunally on Netlify
-Drag-and-drop the public folder.
