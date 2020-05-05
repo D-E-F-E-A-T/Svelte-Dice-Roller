@@ -9,7 +9,7 @@ Have the Node run-time and Yarn package manager installed.
 
 # To clone this repo into an empty directory
 ```
-npx degit https://github.com/sammi-turner/Svelte-Dice-Roller
+$ npx degit https://github.com/sammi-turner/Svelte-Dice-Roller
 ```
 
 # To install node modules
@@ -26,3 +26,6 @@ npx degit https://github.com/sammi-turner/Svelte-Dice-Roller
 ```
 $ yarn build
 ```
+
+# To deploy on Netlify
+Drag-and-drop the public folder.
