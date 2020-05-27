@@ -54,48 +54,48 @@
 
 <style>
   main {
+    display: flex;
     text-align: center;
   }
+
   div {
-    background: transparent;
+    margin: auto;
   }
 </style>
 
 <main>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Polyhedral Dice Roller</h1>
-      <p class="lead">
-        Visit the
-        <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-        to learn how to build Svelte apps.
-      </p>
-      <br />
-      <br />
-      <div class="container">
-        <h4>roll {diceNum}</h4>
-        <button class="btn btn-outline-dark btn-sm" on:click={upNum}>+</button>
-        <button class="btn btn-outline-dark btn-sm" on:click={downNum}>
-          -
-        </button>
-      </div>
-      <br />
-      <div class="container">
-        <h4>d{dieType}</h4>
-        <button class="btn btn-outline-dark btn-sm" on:click={upType}>+</button>
-        <button class="btn btn-outline-dark btn-sm" on:click={downType}>
-          -
-        </button>
-      </div>
-      <br />
-      <div class="container">
-        <h4>{result}</h4>
-        <button class="btn btn-outline-dark btn-sm" on:click={rollDice}>
-          ROLL
-        </button>
-      </div>
-      <br />
-      <img src="dice.png" alt="dice" />
+  <div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1>POLYHEDRAL</h1>
+    <h1>DICE ROLLER</h1>
+    <br />
+    <br />
+    <div>
+      <h4>roll {diceNum}</h4>
+      <button class="btn btn-outline-dark btn-sm" on:click={upNum}>+</button>
+      <button class="btn btn-outline-dark btn-sm" on:click={downNum}>
+        -
+      </button>
     </div>
+    <br />
+    <div>
+      <h4>d{dieType}</h4>
+      <button class="btn btn-outline-dark btn-sm" on:click={upType}>+</button>
+      <button class="btn btn-outline-dark btn-sm" on:click={downType}>
+        -
+      </button>
+    </div>
+    <br />
+    <div>
+      <h4>{result}</h4>
+      <button class="btn btn-outline-dark btn-sm" on:click={rollDice}>
+        ROLL
+      </button>
+    </div>
+    <br />
+    <img src="dice.png" alt="dice" />
   </div>
 </main>
